@@ -35,7 +35,7 @@ module Bootstrap
 
       private
       def register_rails_engine
-        require 'bootstrap/datetimepicker/engine' if ::Rails.version >= '3.1'
+        require 'bootstrap/datetimepicker/rails/engine' if ::Rails.version >= '3.1'
       end
     end
   end
