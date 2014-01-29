@@ -15,6 +15,14 @@ And then execute:
 Or install it yourself as:
 
     $ gem install bootstrap-datetimepicker
+		
+Add stylesheet(s) file(s) to your application.css
+
+	  *= require bootstrap-datetimepicker
+
+Add javascript(s) file(s) to your application.js
+
+	  //= require bootstrap-datetimepicker
 
 ## Compatibility
 
